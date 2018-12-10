@@ -1,0 +1,40 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-image: url("../images/bg2.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+form {
+	input {
+		outline-style: none;
+		border: none;
+		border-bottom: 1px solid black;
+	}
+
+	button {
+		border: none;
+		background-color: #e9d1ad;
+		padding: 5px;
+		border-radius: 5px;
+		cursor: pointer;
+		text-transform: uppercase;
+	}
+}
+
+.listToDo {
+	width: 300px;
+	margin: 0 auto;
+
+	li {
+		text-align: left;
+	}
+}
