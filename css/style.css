@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  background-image: url("../images/bg2.jpeg");
+  background-image: url("../images/bg2.png");
   background-position: center;
   background-size: cover;
 }
@@ -13,19 +13,38 @@ body {
   text-align: center;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 form input {
   outline-style: none;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #969696;
 }
 
 form button {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
   border: none;
-  background-color: #e9d1ad;
-  padding: 5px;
+  background-color: inherit;
+  color: #000;
+  padding: 6px;
   border-radius: 5px;
   cursor: pointer;
-  text-transform: uppercase;
+  margin-left: 15px;
+  transition: .4s;
+}
+
+form button:hover {
+  background-color: #686868;
+  color: #fff;
+}
+
+form button:focus {
+  outline: none;
 }
 
 .listToDo {
@@ -35,6 +54,9 @@ form button {
 
 .listToDo li {
   text-align: left;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
